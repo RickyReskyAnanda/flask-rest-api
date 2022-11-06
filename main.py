@@ -20,7 +20,7 @@ identitas = {}  # variable global
 class ContohResource(Resource):
     def get(self):
         response = {
-            "message": "Get Method",
+            "message": "METHOD GET",
             "data": identitas
         }
         return response
